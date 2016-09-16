@@ -108,6 +108,11 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
+.sidenav {
+  width:200px;
+  float:left;
+}
+
 /**
  * Wrapper
  */
@@ -371,7 +376,7 @@ pre {
   .paginator > .next_page {
     float: left; }
   .paginator > .prev_page {
-    float: right; } 
+    float: right; }
 /**
  * Posts
  */

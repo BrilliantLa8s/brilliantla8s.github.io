@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Welcome"
+title:  "Getting Started with Node.js"
 date:   2016-09-15 28:23:10 +0800
 tags:
-  - Tutorials
-  - Theme
+  - Nodejs
+  - Express
+  - Heroku
 categories:
-  - Welcome
+  - Tutorials
   - Info
 ---
 It's a long time question for me, what default theme of Jekyll Writer looks like? Days ago, Mailbox had gone. Today I copied the design of [Mailbox official blog](https://blogs.dropbox.com/mailbox/) for our default theme to remember this great app. Thanks Mailbox team.

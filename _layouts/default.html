@@ -8,8 +8,16 @@
     {% include header.html %}
 
     <div class="page-content">
-      hey
       <div class="wrapper">
+        <div class="sidenav">
+          <ul class="post-list">
+            {% for post in posts %}
+              <li>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
         {{ content }}
       </div>
     </div>
